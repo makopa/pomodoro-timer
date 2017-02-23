@@ -1,0 +1,67 @@
+*{
+	margin:0;
+	padding: 0;
+	user-select: none;
+
+}
+body{
+	font-family: sans-serif;
+	background-color: #bdc3c7;
+
+}
+.wrap{
+	width: 400px;
+	margin: 150px auto 0 auto;
+	text-align: center;
+}
+h1{
+	margin-top: 5px;
+}
+.screen{
+	border: solid 5px #fff;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin: 20px auto;
+	background-color: orange;
+}
+.screen-content{
+	margin-top: 40px;
+	line-height: 40px;
+}
+.timers{
+	display: flex;
+	margin: auto;
+	width: 400px;
+	justify-content:space-around;
+	font-family: 'Dancing Script', cursive;
+	font-weight: 500;
+	font-size: 1.3em;
+
+}
+.break-content{
+	margin-left: 20px;
+}
+.timers button{
+	width: 30px;
+	height: 30px;
+	border-radius: 1em;
+	outline:none;
+	cursor: pointer;
+
+}
+#start, #reset{
+	width: 60px;
+	height: 30px;
+	border-radius: 1em;
+	outline:none;
+	cursor: pointer;
+}
+#reset{
+	float: left;
+	margin: 115px 0 0 50px;
+}
+#start{
+	float: right;
+	margin: 115px 50px 0 0;
+}

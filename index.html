@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<title>Pomodoro Timer</title>
+</head>
+<body>
+	<div class='wrap'>
+		<h1>Pomodoro Timer</h1>
+		<button id='reset'>RESET</button>
+		<button class="hiding" id='start'>START</button>
+		<div class="screen">
+		<dir class="screen-content">
+			
+			<span id="screen-display"> Session </span>
+			<p id="time">25</p>
+		</dir>
+			
+		</div>
+		<div class="timers">
+			<div class="break-content">
+				<span id="set-break">5</span><br>
+				<button  class="hiding" id='minus-break'>-</button>
+				<span>Break Length</span>
+				<button class="hiding" id='plus-break'>+</button>
+			</div>
+
+			<div class="session-content">
+				<span id="set-session">25</span><br>
+				<button class="hiding" id='minus-session'>-</button>
+				<span>Session Length</span>
+				<button class="hiding" id='plus-session'>+</button>
+			</div>
+		</div>	
+			
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
