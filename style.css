@@ -65,3 +65,21 @@ h1{
 	float: right;
 	margin: 115px 50px 0 0;
 }
+footer a{
+	text-decoration: none;
+	color: #000;
+}
+.foot-wrap{
+	border: solid #666 2px;
+	width: max-content;
+	padding: 10px;
+	margin: 50px auto auto auto;
+	text-align: center;
+}
+.social{
+	font-size: 25px;
+}
+.social ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
